@@ -17,6 +17,8 @@ const tags = require('common-tags')
 
 var prefix = ayarlar.prefix;// rengar
 
+client.login(process.env.token)
+
 const log = message => {//
     console.log(`${message}`);//
 };
